@@ -11,6 +11,11 @@
 		A57227632C19D1CF00410496 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57227622C19D1CF00410496 /* ContentView.swift */; };
 		A57227652C19D1D000410496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57227642C19D1D000410496 /* Assets.xcassets */; };
 		A57227682C19D1D000410496 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57227672C19D1D000410496 /* Preview Assets.xcassets */; };
+		A57227722C19D39900410496 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57227712C19D39900410496 /* Home.swift */; };
+		A57227742C19FD4600410496 /* Recent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57227732C19FD4600410496 /* Recent.swift */; };
+		A57227762C1A074A00410496 /* BarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57227752C1A074A00410496 /* BarGraph.swift */; };
+		A57227782C1A0EBD00410496 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57227772C1A0EBD00410496 /* Download.swift */; };
+		A572277A2C1A304A00410496 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57227792C1A304A00410496 /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		A57227642C19D1D000410496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A57227672C19D1D000410496 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A57227692C19D1D000410496 /* DashboardUIMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DashboardUIMacOS.entitlements; sourceTree = "<group>"; };
+		A57227712C19D39900410496 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A57227732C19FD4600410496 /* Recent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recent.swift; sourceTree = "<group>"; };
+		A57227752C1A074A00410496 /* BarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraph.swift; sourceTree = "<group>"; };
+		A57227772C1A0EBD00410496 /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+		A57227792C1A304A00410496 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,8 @@
 		A572275F2C19D1CF00410496 /* DashboardUIMacOS */ = {
 			isa = PBXGroup;
 			children = (
+				A57227702C19D38E00410496 /* Model */,
+				A572276F2C19D37F00410496 /* View */,
 				A57227602C19D1CF00410496 /* DashboardUIMacOSApp.swift */,
 				A57227622C19D1CF00410496 /* ContentView.swift */,
 				A57227642C19D1D000410496 /* Assets.xcassets */,
@@ -67,6 +79,25 @@
 				A57227672C19D1D000410496 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A572276F2C19D37F00410496 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A57227712C19D39900410496 /* Home.swift */,
+				A57227752C1A074A00410496 /* BarGraph.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A57227702C19D38E00410496 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A57227732C19FD4600410496 /* Recent.swift */,
+				A57227772C1A0EBD00410496 /* Download.swift */,
+				A57227792C1A304A00410496 /* History.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57227762C1A074A00410496 /* BarGraph.swift in Sources */,
+				A57227742C19FD4600410496 /* Recent.swift in Sources */,
+				A572277A2C1A304A00410496 /* History.swift in Sources */,
 				A57227632C19D1CF00410496 /* ContentView.swift in Sources */,
+				A57227782C1A0EBD00410496 /* Download.swift in Sources */,
+				A57227722C19D39900410496 /* Home.swift in Sources */,
 				A57227612C19D1CF00410496 /* DashboardUIMacOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
